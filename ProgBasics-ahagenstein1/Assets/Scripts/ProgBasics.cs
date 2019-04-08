@@ -12,11 +12,15 @@ public class ProgBasics : MonoBehaviour {
         Debug.Log("Multiplikative Operatoren:  % " + (2 % 4));
         Debug.Log("Additive Operatoren:  + " + (2 + 4));
         Debug.Log("Additive Operatoren:  - " + (2 - 4));
+        Debug.Log("Relationale Operatoren:  < " + (2 < 4));
+        Debug.Log("Relationale Operatoren:  <= " + (2 <= 4));
+        Debug.Log("Relationale Operatoren:  > " + (2 > 4));
+        Debug.Log("Relationale Operatoren:  >= " + (2 >= 4));
 
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update () {
 		
 	}
 }
