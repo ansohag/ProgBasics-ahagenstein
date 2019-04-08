@@ -18,6 +18,9 @@ public class ProgBasics : MonoBehaviour {
         Debug.Log("Relationale Operatoren:  >= " + (2 >= 4));
         Debug.Log("Gleichheits Operatoren:  == " + (2 == 4));
         Debug.Log("Gleichheits Operatoren:  != " + (2 == 4));
+        Debug.Log("Logische Operatoren:  & " + (2 & 4));
+        Debug.Log("Logische Operatoren:  | " + (2 | 4));
+        Debug.Log("Logische Operatoren: & " + (true && true));
 
     }
 
