@@ -6,21 +6,30 @@ public class ProgBasics : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        Debug.Log("erste Tests mit Operatoren");
-        Debug.Log("Multiplikative Operatoren: * " + (2 * 4));
-        Debug.Log("Multiplikative Operatoren:  / " + (2 / 4));
-        Debug.Log("Multiplikative Operatoren:  % " + (2 % 4));
-        Debug.Log("Additive Operatoren:  + " + (2 + 4));
-        Debug.Log("Additive Operatoren:  - " + (2 - 4));
-        Debug.Log("Relationale Operatoren:  < " + (2 < 4));
-        Debug.Log("Relationale Operatoren:  <= " + (2 <= 4));
-        Debug.Log("Relationale Operatoren:  > " + (2 > 4));
-        Debug.Log("Relationale Operatoren:  >= " + (2 >= 4));
-        Debug.Log("Gleichheits Operatoren:  == " + (2 == 4));
-        Debug.Log("Gleichheits Operatoren:  != " + (2 == 4));
-        Debug.Log("Logische Operatoren:  & " + (2 & 4));
-        Debug.Log("Logische Operatoren:  | " + (2 | 4));
-        Debug.Log("Logische Operatoren: & " + (true && true));
+        // Multiplikative Operatoren
+        Debug.Log("Multiplikative Operatoren: * " + (3 * 4));
+        Debug.Log("Multiplikative Operatoren: / " + (12 / 4));
+        Debug.Log("Multiplikative Operatoren: % " + (3 % 4));
+
+        //Additive Operatoren
+        Debug.Log("Additive Operatoren: + " + (3 + 4));
+        Debug.Log("Additive Operatoren: - " + (8 - 4));
+
+        //Relationale Operatoren 
+        Debug.Log("Relationale Operatoren: < " + (3 < 4));
+        Debug.Log("Relationale Operatoren: <= " + (3 <= 4));
+        Debug.Log("Relationale Operatoren: >" + (3 > 4));
+        Debug.Log("Relationale Operatoren: >= " + (3 >= 4));
+
+        //Gleichheits Operatoren 
+        Debug.Log("Gleichheits Operatoren: ==" + (5 == 5));
+        Debug.Log("Gleichheits Operatoren: !=" + (5 != 5));
+
+        //Logische Operatoren 
+        Debug.Log("Logische Operatoren: &" + (3 & 5));
+        Debug.Log("Logische Operatoren: |" + (3 | 5));
+        Debug.Log("Logische Operatoren: ^" + (3 ^ 5));
+
 
     }
 
