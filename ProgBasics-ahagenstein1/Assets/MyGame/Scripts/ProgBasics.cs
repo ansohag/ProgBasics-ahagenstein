@@ -13,7 +13,8 @@ public class ProgBasics : MonoBehaviour
         Operators();
         Test2();
         Test1();
-
+        AddNumbers(3,2);
+        MultNumbers(2, 3, 1, 2);
     }
     //Methode deklariert
     public void Operators()
@@ -57,6 +58,18 @@ public class ProgBasics : MonoBehaviour
     public void Test2()
     {
         Debug.Log("Random Test: + " + (60 + 30));
+    }
+    //Methode deklaiert und Variablen deklariert
+    public void AddNumbers(int a, int b)
+    { 
+        int c = a + b;
+        Debug.Log("add numbers: " + c);
+    }
+
+    public void MultNumbers(int a, int b, int c, int d)
+    {
+        int e = a * b * c * d;
+        Debug.Log("mult numbers: " + e);
     }
 
     // Update is called once per frame
