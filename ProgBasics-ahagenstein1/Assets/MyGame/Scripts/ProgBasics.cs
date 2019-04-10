@@ -10,11 +10,17 @@ public class ProgBasics : MonoBehaviour
 	void Start () 
     {
         //Methode im Start aufrufen sonst wird er nicht ausgeführt
-        Operators();
+       // Operators();
         Test2();
         Test1();
-        AddNumbers(3,2);
-        MultNumbers(2, 3, 1, 2);
+        // AddNumbers(3,2);
+        // MultNumbers(2, 3, 1, 2);
+        Combine();
+        Debug.Log(MyText("ahagenstein"));
+
+        //variable string definiert
+        string drama = MyText("ahagenstein");
+        Debug.Log("neu " + drama);
     }
     //Methode deklariert
     public void Operators()
@@ -70,6 +76,19 @@ public class ProgBasics : MonoBehaviour
     {
         int e = a * b * c * d;
         Debug.Log("mult numbers: " + e);
+    }
+
+    public void Combine()
+    {
+        MultNumbers(4, 2, 1, 3);
+        Operators();
+        AddNumbers(100, 1000);
+    }
+
+    //Methode mit String
+    public string MyText(string myName)
+    {
+        return "Drama " + " " + myName; //leerer String
     }
 
     // Update is called once per frame
