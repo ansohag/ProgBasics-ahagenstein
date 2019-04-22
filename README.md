@@ -8,8 +8,8 @@
 * Visual Studio Version 7.7.2.21     
 
 ### Description       
-* **Tests Operatoren:**
-* **Tests Methoden:**
+* **Tests Operatoren:** verschieden Operatoren (Multiplikative, Additive, Relationale, Gleichheits und Logische) wurden in einem C# Script mit Debug.Log in die Unity Console geschieben und ausgeführt
+* **Tests Methoden:** Übungen mit Variablen und Methoden wurden erstellt und in der Unity Console ausgeführt
 
 ### Screenshots      
 
