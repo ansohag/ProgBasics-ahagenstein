@@ -20,5 +20,11 @@
 </div>
 
 
+*Operatoren
+
+<div>
+<img src="./Screenshots/screenshot_Operatoren.png" width="250">
+</div>
+
 
 > Copyright by Anna Hagenstein
