@@ -23,14 +23,14 @@
 * Operatoren
 
 <div>
-<img src="./Screenshots/screenshot_Operatoren.PNG" width="250">
+<img src="./Screenshots/screenshot_Operatoren.png" width="250">
 </div>
 
 
 * Console Unity
 
 <div>
-<img src="./Screenshots/screenshot_Console.PNG" width="250">
+<img src="./Screenshots/screenshot_Console.png" width="250">
 </div>
 
 > Copyright by Anna Hagenstein
