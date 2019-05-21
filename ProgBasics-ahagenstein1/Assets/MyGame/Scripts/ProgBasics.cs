@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ProgBasics : MonoBehaviour 
-
 {
     public int test1;
     public float test2;
@@ -11,15 +10,12 @@ public class ProgBasics : MonoBehaviour
     public int divi1 = 24;
     public int divi2 = 2;
 
-
-	// Use this for initialization
+    // Use this for initialization
 	void Start () 
     {
-       
-         //Methode im Start aufrufen sonst wird er nicht ausgeführt
+        //Methode im Start aufrufen sonst wird er nicht ausgeführt
         test1 = 1;
         Debug.Log("test 1 in Start" + test1);
-
 
          // Operators();
         Test2();
@@ -38,8 +34,6 @@ public class ProgBasics : MonoBehaviour
         // all methodes combined
         Combine();
 
-      
-
         //return type
         Debug.Log(MyText("ahagenstein"));
 
@@ -50,9 +44,7 @@ public class ProgBasics : MonoBehaviour
         Debug.Log(Wohnort("Seekirchen am Wallersee"));
 
         Debug.Log(yo("Billy", "Ray"));
-
     }
-
 
     //Methode deklaiert
     public void XY()
@@ -62,31 +54,24 @@ public class ProgBasics : MonoBehaviour
     }
 
 
-
     public void Test1()
-    
     {
         Debug.Log("Multiplizieren jey: * " + (888 * 666));
     }
 
 
-
     public void Test2()
-    
     {
         Debug.Log("Random Test: + " + (60 + 30));
     }
-
 
     public void division()
     {
         Debug.Log(divi1 / divi2);
     }
 
-
     //Methode deklaiert und Variablen deklariert
     public void AddNumbers(int a, int b)
-    
     { 
         int c = a + b;
         Debug.Log("add numbers: " + c);
@@ -94,9 +79,7 @@ public class ProgBasics : MonoBehaviour
         Debug.Log("test 1 in AddNumbers" + test1);
     }
 
-
     public void MultNumbers(int a, int b, int c, int d)
-   
     {
         int e = a * b * c * d;
         Debug.Log("mult numbers: " + e);
@@ -110,7 +93,6 @@ public class ProgBasics : MonoBehaviour
         AddNumbers(100, 1000);
     }
 
-
     //Methode mit String
     public string MyText(string myName)
     {
@@ -122,7 +104,6 @@ public class ProgBasics : MonoBehaviour
     {
         return "Wohnort " + " " + home;
     }
-
 
     public void intMult()
     {
@@ -141,9 +122,7 @@ public class ProgBasics : MonoBehaviour
         return "Hello " + vorname + " " + nachname;
     }
 
-
     //parameter
-
     public void MyDatas(string age, string edu, string height)
     {
         Debug.Log("Age: " + age + ", Status: " + edu + ", Height: " + height);
@@ -151,7 +130,6 @@ public class ProgBasics : MonoBehaviour
 
     //parameter
     public void SubNumbers(int a, int b)
-
     {
         int c = a - b;
         Debug.Log("substract numbers: " + c);
@@ -164,12 +142,10 @@ public class ProgBasics : MonoBehaviour
     }
 
 
-
     //Methode deklariert
     public void Operators()
     {
-
-        // Multiplikative Operatoren
+         // Multiplikative Operatoren
         Debug.Log("Multiplikative Operatoren: * " + (3 * 4));
         Debug.Log("Multiplikative Operatoren: / " + (12 / 4));
         Debug.Log("Multiplikative Operatoren: % " + (3 % 4));
@@ -194,11 +170,4 @@ public class ProgBasics : MonoBehaviour
         Debug.Log("Logische Operatoren: ^" + (3 ^ 5));
 
     }
-
-
-    // Update is called once per frame
-    void Update () 
-    {
-		
-	}
 }
